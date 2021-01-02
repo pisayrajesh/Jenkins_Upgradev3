@@ -3,13 +3,13 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Rajesh Kumar Pisay from LevelUp360'
-                        echo 'We are Starting the Testing'
+                        echo "Hi, this is Rajesh Kumar Pisay from LevelUp360"
+                        echo "We are Starting the Testing"
                   }
             }
             stage('Build') {
                   steps {
-                        echo 'Building Sample Maven Project'
+                        echo "Building Sample Maven Project"
                   }
             }
             stage('Deploy') {
